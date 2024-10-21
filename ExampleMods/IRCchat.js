@@ -1,7 +1,7 @@
 class IRCServer {
-    constructor(opCodes, mcUsername) {
+    constructor(opCodes, msha7900) {
         this.opCodes = opCodes;
-        this.mcUsername = mcUsername;
+        this.mcUsername = msha7900;
         this.userKey = null;
         this.pingIntervalId = null;
     }
